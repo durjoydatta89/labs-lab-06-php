@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 40px 20px;
+
+    background: linear-gradient(
+        135deg,
+        #667eea 0%,
+        #764ba2 100%
+    );
+
+    color: #333;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+
+    background: rgba(255, 255, 255, 0.97);
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Heading */
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+
+    color: #4f46e5;
+
+    font-size: 32px;
+}
+
+/* Intro Text */
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+
+    color: #666;
+    font-size: 16px;
+}
+
+/* Form */
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+    color: #374151;
+}
+
+/* Input, Select and Textarea */
+
+input,
+select,
+textarea {
+    width: 100%;
+
+    padding: 13px 14px;
+
+    border: 2px solid #e5e7eb;
+
+    border-radius: 9px;
+
+    font-size: 15px;
+
+    background-color: #ffffff;
+
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+
+    border-color: #6366f1;
+
+    box-shadow:
+        0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* Textarea */
+
+textarea {
+    resize: vertical;
+}
+
+/* Register Button */
+
+button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background: linear-gradient(
+        135deg,
+        #4f46e5,
+        #7c3aed
+    );
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(79, 70, 229, 0.35);
+}
+
+/* Result Page */
+
+.result {
+    text-align: left;
+}
+
+.result h1 {
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+/* Success */
+
+.success {
+    border-top: 6px solid #22c55e;
+}
+
+.success h1 {
+    color: #16a34a;
+}
+
+/* Error */
+
+.error {
+    border-top: 6px solid #ef4444;
+}
+
+.error h1 {
+    color: #dc2626;
+}
+
+.error ul {
+    margin: 15px 0 25px 25px;
+}
+
+.error li {
+    margin-bottom: 8px;
+
+    color: #b91c1c;
+}
+
+/* Submitted Details */
+
+.details {
+    margin-top: 25px;
+
+    padding: 22px;
+
+    background: #f8faff;
+
+    border-left: 5px solid #6366f1;
+
+    border-radius: 8px;
+}
+
+.details p {
+    margin-bottom: 12px;
+}
+
+.details p:last-child {
+    margin-bottom: 0;
+}
+
+/* Back Button */
+
+.back-button {
+    display: block;
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    padding: 13px;
+
+    background: linear-gradient(
+        135deg,
+        #4f46e5,
+        #7c3aed
+    );
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 9px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(79, 70, 229, 0.3);
+}
